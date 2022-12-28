@@ -5,13 +5,6 @@
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x0000
-#define DEVICE_VER   0x0001
-#define MANUFACTURER solarnz
-#define PRODUCT      teck_split
-
 /* key matrix size */
 #define MATRIX_ROWS 12 // Double for two hands
 #define MATRIX_COLS 8
@@ -32,7 +25,6 @@
  */
 #define MATRIX_ROW_PINS { B5, B4, E6, D7, C6, D4 }
 #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2, B6 }
-#define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -133,10 +125,6 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-
-/* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
 
 /* Bootmagic Lite key configuration */
 //#define BOOTMAGIC_LITE_ROW 0
