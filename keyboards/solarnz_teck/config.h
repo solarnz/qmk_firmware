@@ -11,3 +11,5 @@
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
